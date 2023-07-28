@@ -33,7 +33,8 @@ export default function Loginpage() {
         onChange={(e) => setUser({...user, password: e.target.value})}
         placeholder="password"
       />
-      <button onClick={onLogin}>SignUp here</button>
+      <button onClick={onLogin}>Login here</button>
+      <Link href="/signup">Visit Sign Up</Link>
     </div>
   );
 }

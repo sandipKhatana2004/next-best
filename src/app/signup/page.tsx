@@ -43,6 +43,7 @@ export default function SignUp() {
         placeholder="password"
       />
       <button onClick={onSignup}>SignUp here</button>
+      <Link href="/login">Visit Login Up</Link>
     </div>
   );
 }
